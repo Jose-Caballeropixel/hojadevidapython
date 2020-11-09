@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='bootstrap.min.css')}}" />
+    <link rel="stylesheet" href="{{url_for('static',filename='estilos.css')}}" />
+</head>
+<style></style>
+
+<body>
+    <div class="container-fluid">
+        <div class="container d-flex">
+            <h1 class="titulo">Hoja de vida</h1>
+        </div>
+    </div>
+    <div class="informacion-principal mt-5">
+        <div class="container-fluid">
+            <div class="container info">
+                <h3>Perfil Profesional</h3>
+                <div class="row d-flex mt-3">
+                    <div class="col-sm-4">
+                        <img src="{{url_for('static',filename='imagenes/captura.jpg')}}" alt="" width="180px"
+                            height="180px" class="img-responsive" />
+                    </div>
+                    <div class="col-sm-8">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                        officiis suscipit consequuntur nemo voluptate necessitatibus
+                        laborum, commodi illo? Eos ad molestiae sed! Veniam totam, maiores
+                        sed architecto alias fugiat excepturi!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="datos-personales mt-4">
+        <div class="container-fluid">
+            <div class="container">
+                <h3>Datos personales</h3>
+                <div class="row d-flex">
+                    <div class="col-sm-6">
+                        <p class="contenido">
+                        <ul>
+                            <li>Nombres: José David </li>
+                            <li>Apellidos: Caballero Jiménez</li>
+                            <li>ID: C.c 1.002.582.431 de Moniquirá(Boyacá)</li>
+                            <li>Domicilio: Moniquirá - Boyacá</li>
+                            <li>Estado Civil: Soltero</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="contenido2">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum inventore facere veniam
+                            tempora corrupti qui laborum at quaerat. Facere nisi dignissimos iure eaque voluptatibus
+                            expedita delectus debitis. Reiciendis, exercitationem excepturi!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="estudios mt-5">
+        <div class="container-fluid">
+            <div class="container">
+                <h3>Estudios</h3>
+                <div class="row">
+                    <p class="estudios">
+                    <ul>
+                        <li> <b> Tecnólogo: Análisis y desarrollo de sistemas de información (2019)</b>
+                            <br>
+                            Centro de Gestión Agroempresarial del Oriente
+                            <br>
+                            Vélez - Santander
+                            (En progreso)
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

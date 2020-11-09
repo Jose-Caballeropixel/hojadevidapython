@@ -12,7 +12,7 @@
 
 <body>
     <div class="container-fluid">
-        <div class="container d-flex">
+        <div class="container title d-flex justify-content-center">
             <h1 class="titulo">Hoja de vida</h1>
         </div>
     </div>
@@ -20,8 +20,8 @@
         <div class="container-fluid">
             <div class="container info">
                 <h3>Perfil Profesional</h3>
-                <div class="row d-flex mt-3">
-                    <div class="col-sm-4">
+                <div class="row d-flex mt-3 perfil">
+                    <div class="col-sm-4 mb-4">
                         <img src="{{url_for('static',filename='imagenes/captura.jpg')}}" alt="" width="180px"
                             height="180px" class="img-responsive" />
                     </div>
@@ -37,7 +37,7 @@
     </div>
     <div class="datos-personales mt-4">
         <div class="container-fluid">
-            <div class="container">
+            <div class="container personales">
                 <h3>Datos personales</h3>
                 <div class="row d-flex">
                     <div class="col-sm-6">
@@ -64,7 +64,7 @@
     </div>
     <div class="estudios mt-5">
         <div class="container-fluid">
-            <div class="container">
+            <div class="container info">
                 <h3>Estudios</h3>
                 <div class="row">
                     <p class="estudios">
